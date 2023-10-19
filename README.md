@@ -29,3 +29,4 @@ security -v unlock-keychain ~/Library/Keychains/login.keychain-db
 ## Installed Docker applications
 heimdall
 glances
+portainer
