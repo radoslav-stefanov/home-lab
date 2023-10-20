@@ -14,6 +14,20 @@ chsh -s /bin/bash
 Enable SSH login.
 Disable bluetooth.
 
+## OSX packages
+
+### Install Homebrew
+
+This pulls Xcode and a bunch of other stuff.
+
+```shell
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+### Homebrew packages
+
+htop
+
 ## Installed Applications
 
 docker
@@ -30,3 +44,18 @@ security -v unlock-keychain ~/Library/Keychains/login.keychain-db
 heimdall
 glances
 portainer
+pihole
+- enable queries from whole home network by allowing eth0. make sure 53 is not forwarded for inbound external traffic.
+vaultwarden
+- install chrome extension https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb/related
+
+
+
+
+
+# TODO
+
+https://kopia.io/
+https://github.com/ttionya/vaultwarden-backup
+https://github.com/drakkan/sftpgo/blob/main/docker/README.md
+https://github.com/easyselfhost/self-host/blob/main/docker/dns/docker-compose.yml
