@@ -13,6 +13,9 @@ chsh -s /bin/bash
 ```
 Enable SSH login.
 Disable bluetooth.
+Add SSH key to ssh-agent.
+Install ```gh```.
+Setup Github credentials. https://docs.github.com/en/enterprise-cloud@latest/github-cli/github-cli/quickstart
 
 ## OSX packages
 
@@ -27,6 +30,7 @@ This pulls Xcode and a bunch of other stuff.
 ### Homebrew packages
 
 htop
+gh
 
 ## Installed Applications
 
